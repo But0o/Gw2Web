@@ -64,7 +64,8 @@ subtypes.of('') // índice 0 = sin subtipo
 
 const items = []
 for (const item of pages.flat()) {
-  const name = item.name?.trim()
+  // Algunos nombres traen marcado del juego (<c=#A594F7>…</c>)
+  const name = item.name?.replace(/<[^>]*>/g, '').trim()
   if (!name) continue
   const icon = item.icon?.startsWith(ICON_PREFIX) ? item.icon.slice(ICON_PREFIX.length) : ''
   const tradeable = !(item.flags ?? []).some((f) => UNTRADEABLE.has(f))

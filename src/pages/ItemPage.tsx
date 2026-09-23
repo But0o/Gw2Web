@@ -62,9 +62,9 @@ function ItemDetail({ item, catalog }: { item: Item; catalog: Catalog }) {
   return (
     <div className="detail">
       <header className="detail-header">
-        <ItemIcon src={item.icon} rarity={item.rarity} size={88} alt={item.name} />
+        <ItemIcon src={item.icon} rarity={item.rarity} size={88} alt={stripMarkup(item.name)} />
         <div className="detail-title">
-          <h1 className={`rarity-text rarity-${item.rarity}`}>{item.name}</h1>
+          <h1 className={`rarity-text rarity-${item.rarity}`}>{stripMarkup(item.name)}</h1>
           <p className="muted">
             {itemKind({ type: item.type, subtype: d?.type })} · <RarityName rarity={item.rarity} />
             {item.level > 0 && ` · Nivel ${item.level}`}

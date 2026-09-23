@@ -10,7 +10,7 @@ export function normalize(text: string): string {
 export function stripMarkup(text: string): string {
   return text
     .replace(/<br\s*\/?>/gi, '\n')
-    .replace(/<\/?c(=[^>]*)?>/gi, '')
+    .replace(/<[^>]*>/g, '')
     .trim()
 }
 
