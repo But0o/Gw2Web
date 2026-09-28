@@ -30,10 +30,10 @@ Si querés tenerla a mano, se instala como una app más:
 - **Android (Chrome):** menú ⋮ → *Instalar aplicación*.
 
 <p align="center">
-  <img src="docs/buscar.png" alt="Búsqueda" width="30%" />
-  <img src="docs/detalle.png" alt="Detalle de un objeto" width="30%" />
-  <img src="docs/receta.png" alt="Receta de un objeto" width="30%" />
-  <img src="docs/cuenta.png" alt="Mi cuenta" width="30%" />
+  <img src="docs/buscar.jpeg" alt="Búsqueda" width="30%" />
+  <img src="docs/detalle.jpeg" alt="Detalle de un objeto" width="30%" />
+  <img src="docs/receta.jpeg" alt="Receta de un objeto" width="30%" />
+  <img src="docs/cuenta.jpeg" alt="Mi cuenta" width="30%" />
 </p>
 
 ## Funciones
