@@ -16,6 +16,10 @@
 
 </div>
 
+<p align="center">
+  <img src="docs/escritorio.png" alt="Arsenal de Tyria en escritorio: buscador y lista de equipo destacado" width="100%">
+</p>
+
 ---
 
 ## ¿Qué es?
